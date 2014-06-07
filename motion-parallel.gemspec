@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["watson1978@gmail.com"]
   spec.description   = %q{motion-parallel is parallel iterations for RubyMotion}
   spec.summary       = %q{motion-parallel is parallel iterations for RubyMotion}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/Watson1978/motion-parallel"
   spec.license       = "MIT"
 
   files = []
