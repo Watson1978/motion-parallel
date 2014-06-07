@@ -18,7 +18,46 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+### #p_times
+
+```ruby
+10.p_times do |i|
+  i ** 2
+end
+```
+
+### #p_each
+
+```ruby
+['foo', 'bar', 'baz'].p_each do |obj|
+  "Hello #{obj}"
+end
+```
+
+### #p_each_index
+
+```ruby
+['foo', 'bar', 'baz'].p_each_index do |index|
+  puts index
+end
+```
+
+### #p_each_with_index
+
+```ruby
+['foo', 'bar', 'baz'].p_each_index do |obj, index|
+  puts "#{obj} at #{index}"
+end
+```
+
+### #p_map
+
+```ruby
+['foo', 'bar', 'baz'].p_map do |obj|
+  "Hello #{obj}"
+end
+```
+
 
 ## Contributing
 
