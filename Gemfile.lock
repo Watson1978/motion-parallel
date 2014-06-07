@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    motion-parallel (1.0)
+    motion-parallel (0.1)
 
 GEM
   remote: https://rubygems.org/
