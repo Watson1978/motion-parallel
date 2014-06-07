@@ -35,11 +35,11 @@ module Enumerable
 
   def p_map(priority=nil, &block)
     ary = self.to_a
-    @p_map_result = Array.new(ary.size)
+    result = Array.new(ary.size)
     ary.p_each_with_index(priority) do |obj, i|
-      @p_map_result[i] = block.call(obj)
+      result[i] = block.call(obj)
     end
-    @p_map_result
+    result
   end
   alias :p_collect :p_map
 
