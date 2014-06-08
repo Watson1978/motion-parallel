@@ -1,6 +1,6 @@
 # motion-parallel
 
-motion-parallel is parallel iterations for RubyMotion
+motion-parallel provides parallel iterations for RubyMotion
 
 ## Installation
 
